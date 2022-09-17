@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/QITS-IntegrationWebApi/bin
+/QITS-IntegrationWebApi/obj
+/.vs/QITS-IntegrationFramework/v16
+/packages
+/.vs/QITS-IntegrationFramework/config

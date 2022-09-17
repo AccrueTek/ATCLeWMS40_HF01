@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 9.25" name="WMSDatabase">
+  <DataContextMoniker Name="/WMSDatabaseDataContext" />
+  <nestedChildShapes>
+    <classShape Id="362a45f4-925e-47e2-a0e0-eaa89e2b8f48" isExpanded="false" absoluteBounds="0.5, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/_WMS1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="881f0d4d-f2ec-459f-887b-9b393e259243" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3e293ba1-858b-46cd-8faf-8f880b4d4faa" isExpanded="false" absoluteBounds="0.5, 1.5, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/_WMS35_PALL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="31ca416b-0c38-4866-9e1d-2c7fd9411842" absoluteBounds="0.51500000000000012, 1.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="38accac3-0f11-4e9c-820a-910b3ba737a9" isExpanded="false" absoluteBounds="0.5, 2.125, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/OBTQ" />
+      <nestedChildShapes>
+        <elementListCompartment Id="951ecde8-579b-4625-8beb-90a76666d093" absoluteBounds="0.51499999999999968, 2.585, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a3ed1336-8bb4-479c-b91e-94cefaf245ee" isExpanded="false" absoluteBounds="0.5, 4.375, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/OBTN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9f934b74-cff9-4cde-919d-527947877cbf" absoluteBounds="0.51500000000000012, 4.835, 1.9700000000000002, 6.979939778645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5dcd1ae7-1b9b-467a-8b2a-4a7547d1c886" isExpanded="false" absoluteBounds="0.5, 2.875, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/OBIN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="41886913-20f6-4485-b8e7-af504dceb96c" absoluteBounds="0.51500000000000012, 3.335, 1.9700000000000002, 12.556681315104166" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8895ace1-9738-4e79-b64e-304d15380c44" isExpanded="false" absoluteBounds="0.5, 3.625, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/OBBQ" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e4be667d-597f-4111-8f4e-7aba915c835f" absoluteBounds="0.51499999999999968, 4.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="eb307079-5129-4e82-a60c-d7bdf1fda521" isExpanded="false" absoluteBounds="3.5, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/OSBQ" />
+      <nestedChildShapes>
+        <elementListCompartment Id="825a81fa-cdb8-400e-86a2-20fedb1f31ba" absoluteBounds="3.5149999999999997, 0.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="47d29eb8-a4e1-4e95-b95c-8b9e41c2aea4" isExpanded="false" absoluteBounds="3.5, 1.375, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/OSRN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b8a70ef4-6d1c-4913-946f-efc44ab4d465" absoluteBounds="3.5149999999999997, 1.835, 1.9700000000000002, 6.979939778645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2c2b2905-994f-4a8e-870c-0b098490e86f" isExpanded="false" absoluteBounds="3.5, 2.125, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/_WMS35_BOXL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cb54dfea-8834-4004-9902-7a5fdd156852" absoluteBounds="3.5149999999999997, 2.585, 1.9700000000000002, 4.4800211588541661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1dcf4f7c-118f-47f7-9987-cd4b1a0ca8ea" isExpanded="false" absoluteBounds="3.5, 2.875, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/PKL2" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c690df89-6cc2-480a-828a-6a23922a177d" absoluteBounds="3.5149999999999997, 3.335, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="415996b5-4650-4c4e-aa2f-f1941b1739f7" isExpanded="false" absoluteBounds="3.5, 3.625, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/OPKL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cb546d5a-a988-49df-ad06-ced243cde1ff" absoluteBounds="3.5149999999999997, 4.085, 1.9700000000000002, 6.5953369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1963526c-6c1c-4b09-8dfd-a7be159ea2f8" isExpanded="false" absoluteBounds="0.5, 5.25, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/OPDN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7062f616-3af3-49f3-878a-de5c816a88d7" absoluteBounds="0.51500000000000012, 5.71, 1.9700000000000002, 89.6695556640625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="53a530f6-84ed-4810-b233-28d08823cfcc" isExpanded="false" absoluteBounds="0.5, 5.875, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/PDN1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b4eb46e9-742e-4a45-9851-37e88e7078d2" absoluteBounds="0.51500000000000057, 6.335, 1.9700000000000002, 65.054972330729157" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="95d14774-ca3d-4ec2-bc7a-83f959ea0e47" isExpanded="false" absoluteBounds="3.5, 4.375, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/OITW" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ac312dfe-a0e2-451b-bcd2-11c551eab4ac" absoluteBounds="3.5149999999999997, 4.835, 1.9700000000000002, 14.6719970703125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6740d0ed-5cd2-458c-9f9c-c02d84586f03" isExpanded="false" absoluteBounds="3.375, 5.375, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/OIBQ" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f505c36d-622f-42cc-9cd8-2f9c9afbba6a" absoluteBounds="3.3899999999999997, 5.835, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c968c2a7-832e-41f3-a39c-748c5abd9d27" isExpanded="false" absoluteBounds="5.75, 0.75, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/OSRQ" />
+      <nestedChildShapes>
+        <elementListCompartment Id="565dcd3f-ecc4-4c3b-87ec-459bdb07b3f0" absoluteBounds="5.765, 1.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7b381e81-da5d-45ae-9cc1-14da08af5310" isExpanded="false" absoluteBounds="5.75, 1.5, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/OITM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8f5bc0e9-fe75-44b5-801c-4b6d63b9c713" absoluteBounds="5.765, 1.96, 1.9700000000000002, 69.093302408854157" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="492b45f2-8acc-4cd8-9054-dfb09942cb9f" isExpanded="false" absoluteBounds="5.75, 2.25, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/OPOR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fe270073-9724-4b9f-aabe-7ffd1b7f4423" absoluteBounds="5.765, 2.71, 1.9700000000000002, 89.6695556640625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="640731a2-cfe4-4e11-a9f0-ab69ed6e72b4" isExpanded="false" absoluteBounds="6.125, 3.125, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/POR1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c8961fdc-92a2-4d20-90db-fc368bfd9630" absoluteBounds="6.14, 3.585, 1.9700000000000002, 65.054972330729157" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="382145c3-13e0-4a91-b6fb-8d341c605eec" isExpanded="false" absoluteBounds="6.25, 4, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/OIGN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6cb43408-ff71-4231-8b26-b276b0cebf27" absoluteBounds="6.265, 4.46, 1.9700000000000002, 89.6695556640625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="98128cb7-be8a-413e-8a53-ec8e509e5b34" isExpanded="false" absoluteBounds="5.875, 5, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/IGN1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c5caf245-20fe-400d-8625-5d9be80dfb1a" absoluteBounds="5.89, 5.46, 1.9700000000000002, 65.054972330729157" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7cc11aea-b1d2-450c-b6ab-712ae055a3df" isExpanded="false" absoluteBounds="5.875, 5.75, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/OIGE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5fe9918f-ef14-401d-8429-068b88a1fa1c" absoluteBounds="5.89, 6.21, 1.9700000000000002, 89.6695556640625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cd1c1941-1a38-4734-923c-8140424987f2" isExpanded="false" absoluteBounds="6, 6.5, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/IGE1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="74469003-de2b-4858-8210-ba71941b3df1" absoluteBounds="6.015, 6.96, 1.9700000000000002, 65.054972330729157" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bf945cf8-9a4c-49db-aa54-c17997ad4cdb" isExpanded="false" absoluteBounds="3, 6.375, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/OWTR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b1c036f2-8dfd-4a16-af49-9af8a8e47e75" absoluteBounds="3.0149999999999997, 6.835, 1.9700000000000002, 89.6695556640625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7db08923-1066-4d3d-b6eb-6aa0e9eb12c1" isExpanded="false" absoluteBounds="2.75, 7.375, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/WTR1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8e4eaafa-a2eb-4954-88c5-25937fcb8380" absoluteBounds="2.765, 7.835, 1.9700000000000002, 65.054972330729157" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8d813847-4018-40c4-ac8c-1c0f41c0a8ce" isExpanded="false" absoluteBounds="6.5, 7.5, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/PKL1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9049f0bc-7fe4-4df8-a77d-8a0a54bf1455" absoluteBounds="6.515, 7.96, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8347f85b-ca65-4ad2-aff9-625b3d92096d" isExpanded="false" absoluteBounds="0.5, 7, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/ORDR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6a8fb4ed-b7e8-4064-b6e2-7773389afe76" absoluteBounds="0.51500000000000012, 7.46, 1.9700000000000002, 89.6695556640625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="319960ed-13e6-4a8d-b5e8-36526cbac062" isExpanded="false" absoluteBounds="6.375, 8.5, 2, 0.45">
+      <DataClassMoniker Name="/WMSDatabaseDataContext/RDR1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a7eb52cd-532a-47f9-bfa6-498682646290" absoluteBounds="6.39, 8.96, 1.9700000000000002, 65.054972330729157" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

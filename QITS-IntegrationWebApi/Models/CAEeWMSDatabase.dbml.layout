@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="CAEeWMSDatabase">
+  <DataContextMoniker Name="/CAEeWMSDatabaseDataContext" />
+  <nestedChildShapes>
+    <classShape Id="fa3f12d4-da31-4b8d-8d59-72fc655c4de3" absoluteBounds="4.75, 2.375, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/CAEeWMSDatabaseDataContext/LoginInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c7a7f5cc-06c5-4ff1-b179-666d786b6f07" absoluteBounds="4.765, 2.835, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1471,7 +1471,7 @@ namespace QITS_IntegrationWebApi.Controllers
                 result = wmsServiceClient.PrintPicklist(absEntry);
                 if (!result.ToString().Equals("Success"))
                 {
-                    result = "Label Printing failed.";
+                    result = "Printing failed.";
                 }
             }
             catch (Exception e)

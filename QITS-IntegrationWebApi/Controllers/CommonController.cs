@@ -80,6 +80,27 @@ namespace QITS_IntegrationWebApi.Controllers
             }
         }
 
+        [HttpGet]
+        [Route("api/WebApi/LogoutUser")] // Completed - Web Service
+        public IHttpActionResult LogoutUser(string userName)
+        {
+            try
+            {
+                var loginInfo = caeDBContext.GetTable<LoginInfo>().Where(x => x.UserName.Equals(userName) && x.Status == true && x.IsDeleted == false);
+                loginInfo.ToList().ForEach(x =>
+                {
+                    UpdateLoginTable(x.ID);
+                });
+                
+                return Ok("Logout success");
+            }
+            catch (Exception e)
+            {
+                errmsg = e.Message;
+                return Ok(errmsg);
+            }
+        }
+
 
         private int InsertLoginTable(string userId, string userName, string deviceId)
         {

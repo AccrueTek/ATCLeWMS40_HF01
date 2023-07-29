@@ -47,12 +47,13 @@ namespace QITS_IntegrationWebApi.Controllers
                 UserName = wmsServiceClient.Get_WMS_login(UserCode, Password);
                 if(string.IsNullOrEmpty(UserName))
                     return Content(System.Net.HttpStatusCode.NotFound, "User not found");
-                if(ValidateLogin(UserCode))
+                string errorMessage = string.Empty;
+                if(ValidateLogin(UserCode, deviceID, out errorMessage))
                 {
                     var loginInfoID = InsertLoginTable(UserName, UserCode, deviceID);
                     return Ok(string.Format("{0},{1}", UserName, loginInfoID));
                 }
-                return Content(System.Net.HttpStatusCode.Forbidden, "Duplicate login");
+                return Content(System.Net.HttpStatusCode.Forbidden, $"Duplicate login - {errorMessage}");
 
 
             }
@@ -91,6 +92,10 @@ namespace QITS_IntegrationWebApi.Controllers
             return loginInfo.ID;
         }
 
+        private LoginInfo GetMatchingLoginInfo(string userId, string userName, string deviceId)
+        {
+            return caeDBContext.GetTable<LoginInfo>().Where(x => x.DeviceID.Equals(deviceId) && x.UserID.Equals(userId) && !x.LoginTime.HasValue).LastOrDefault();
+        }
 
         private void UpdateLoginTable(int loginInfoId)
         {
@@ -101,16 +106,27 @@ namespace QITS_IntegrationWebApi.Controllers
             caeDBContext.SubmitChanges();
         }
 
-        private bool ValidateLogin(string userName)
+        private bool ValidateLogin(string userName, string deviceId, out string errorMessage)
         {
             var loginTable = caeDBContext.GetTable<LoginInfo>();
+            errorMessage = string.Empty;
             if (loginTable.Any() && loginTable.Any(x=> x.UserName.Equals(userName)))
             {
                 var lastRecord = loginTable.Where(x => x.UserName.Equals(userName) && x.Status == true && x.IsDeleted == false);
                 if (lastRecord == null || lastRecord.ToList().Count == 0)
                     return true;
                 else
+                {
+                    var lastLoginInfo = lastRecord.ToList().Last();
+                    if (lastLoginInfo.DeviceID.Equals(deviceId))
+                    {
+                        UpdateLoginTable(lastLoginInfo.ID);
+                        return true;
+                    }
+                    errorMessage = $"Last login is from Device : {lastLoginInfo.DeviceID}. Please logout from that the device.";
                     return false;
+                }
+                    
             }
             return true;
         }

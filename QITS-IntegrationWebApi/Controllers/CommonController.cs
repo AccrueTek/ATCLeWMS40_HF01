@@ -138,8 +138,8 @@ namespace QITS_IntegrationWebApi.Controllers
                     return true;
                 else
                 {                    
-                    var lastLoginInfo = lastRecord.ToList().Last();
-                    if (!string.IsNullOrEmpty(deviceId) && !string.IsNullOrEmpty(lastLoginInfo.DeviceID) && lastLoginInfo.DeviceID.Equals(deviceId))
+                    var lastLoginInfo = lastRecord.OrderByDescending(x=> x.LoginTime).ToList().Last();
+                    if (!string.IsNullOrEmpty(deviceId) && (string.IsNullOrEmpty(lastLoginInfo.DeviceID) || lastLoginInfo.DeviceID.Equals(deviceId)))
                     {
                         UpdateLoginTable(lastLoginInfo.ID);
                         return true;
